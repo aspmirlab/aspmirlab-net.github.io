@@ -1,2 +1,2 @@
-# aspmirlab-net-github.io
+# aspmirlab-net.github.io
 ASPMIR Website
