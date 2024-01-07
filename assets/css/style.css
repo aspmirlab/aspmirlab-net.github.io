@@ -1,13 +1,3 @@
-/**
-* Template Name: Butterfly - v4.8.1
-* Template URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -15,11 +5,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #49b5e7;
+  color: red;
 }
 
 a:hover {
-  color: #76c7ed;
+  color: rgb(145, 5, 5);
   text-decoration: none;
 }
 
@@ -42,7 +32,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #49b5e7;
+  background: red;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -69,9 +59,10 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: red;
+  background: white;
   transition: all 0.5s;
   z-index: 997;
+  color: red;
   padding: 20px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
 }
@@ -92,8 +83,11 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 150px;
+  margin: -48px;
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -126,7 +120,7 @@ h6 {
   font-family: "Dosis", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: white;
+  color: red;
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
@@ -156,7 +150,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: red;
+  background: white;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -278,7 +272,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #49b5e7;
+  color: red;
 }
 
 .navbar-mobile .getstarted,
@@ -313,7 +307,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #49b5e7;
+  color: red;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -326,7 +320,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/new_intro.jpeg") center center;
+  background: url("../img/new_intro1.jpeg") center center;
   background-size: cover;
   position: relative;
   margin-top: 70px;
@@ -335,7 +329,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(15, 15, 50, 0.7);
+  background: rgba(73, 30, 30, 0.454);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -375,12 +369,12 @@ h6 {
   border-radius: 4px;
   transition: ease-in-out 0.3s;
   color: #fff;
-  background: #3498db;
+  background: red;
   text-transform: uppercase;
 }
 
 #hero .btn-get-started:hover {
-  background: #4ea5e0;
+  background: #ff3700;
 }
 
 @media (max-width: 992px) {
@@ -459,13 +453,13 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #49b5e7;
+  color: red;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #49b5e7;
-  border-color: #49b5e7;
+  background: red;
+  border-color: red;
 }
 
 .about .icon-box:hover .icon i {
@@ -485,7 +479,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #49b5e7;
+  color: red;
 }
 
 .about .icon-box .description {
@@ -510,7 +504,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#49b5e7 50%, rgba(73, 181, 231, 0.4) 52%);
+  background: radial-gradient(red 50%, rgba(73, 181, 231, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -558,7 +552,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #49b5e7;
+  border-left: 15px solid red;
   transform: scale(20);
 }
 
@@ -639,7 +633,7 @@ section {
   font-size: 44px;
   font-weight: 700;
   display: block;
-  color: #49b5e7;
+  color: red;
   font-family: "Dosis", sans-serif;
 }
 
@@ -677,7 +671,7 @@ section {
 }
 
 .clients .client-logo img {
-  height: 50%;
+  height: 100%;
   filter: grayscale(100%);
   transition: 0.3s;
 }
@@ -733,7 +727,7 @@ section {
 }
 
 .services .icon-box:hover .title a {
-  color: #49b5e7;
+  color: red;
 }
 
 .services .description {
@@ -774,7 +768,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #49b5e7;
+  color: red;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -866,7 +860,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #49b5e7;
+  color: red;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -920,11 +914,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #49b5e7;
+  border: 1px solid red;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #49b5e7;
+  background-color: red;
 }
 
 .portfolio-details .portfolio-info {
@@ -1057,7 +1051,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #49b5e7;
+  background-color: red;
 }
 
 @media (min-width: 992px) {
@@ -1108,7 +1102,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #76c7ed;
+  background: red;
 }
 
 .team .member .social i {
@@ -1173,7 +1167,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #49b5e7;
+  color: red;
   float: left;
   width: 44px;
   height: 44px;
@@ -1208,7 +1202,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #49b5e7;
+  background: red;
   color: #fff;
 }
 
@@ -1280,7 +1274,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #49b5e7;
+  background: red;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1419,7 +1413,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #49b5e7;
+  background: red;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1475,7 +1469,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #49b5e7;
+  color: red;
   font-size: 18px;
   line-height: 1;
 }
@@ -1499,13 +1493,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #49b5e7;
+  color: red;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #49b5e7;
+  background: red;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
