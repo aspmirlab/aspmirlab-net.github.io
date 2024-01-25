@@ -67,23 +67,11 @@ h6 {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
 }
 
-#header .logo {
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: "Lato", sans-serif;
-}
 
-#header .logo a {
-  color: #0f394c;
-}
 
 #header .logo img {
   max-height: 150px;
+  width: 250px;
   margin: -48px;
 }
 
@@ -1122,6 +1110,31 @@ section {
 
 
 /* =========================MY NEW STYLING START ================= */
+
+
+.row .prof-card{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.prof-card .prof-image{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+.prof-card .prof-image img{
+  width: 250px;
+  height: 250px;
+}
+
+.prof-card .prof-content h2{
+  font-size: 20px;
+}
+
 
 .people-section{
   box-sizing: border-box;
