@@ -648,6 +648,7 @@ section {
   color: white;
   font-size: 14px;
   background: red;
+  margin-top: 80px;
   height: 5rem;
 }
 
@@ -781,6 +782,50 @@ section {
   text-align: center;
 }
 
+.more-image-section .text-section{
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.more-image-section{
+  background: red;
+  padding: 50px;
+  margin-bottom: 90px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 35rem;
+  display: block;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.more-image-section .more-image{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  position: relative;
+  top: 100px;
+}
+
+.more-image .image-card img{
+  width: 350px;
+  height: 150px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.image-card img:hover{
+  transition: all ease-in-out;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+
+
 @media only screen and (max-width: 1000px) {
   .people-section-1{
     margin: 10px;
@@ -830,6 +875,33 @@ section {
     justify-content: center;
     align-items: center;
   }
+
+
+  .more-image-section{
+    background: red;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 50rem;
+  }
+  
+  .more-image-section .more-image{
+    display: grid;
+    grid-template-columns: auto  auto;
+    gap: 10px;
+    position: relative;
+    top: 100px;
+  }
+  
+  .more-image .image-card img{
+    width: 350px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -880,6 +952,33 @@ section {
     height: 32rem;
     padding: 0;
   }
+
+
+  .more-image-section{
+    background: red;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 50rem;
+  }
+  
+  .more-image-section .more-image{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    position: relative;
+    top: 100px;
+  }
+  
+  .more-image .image-card img{
+    width: 350px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+
 }
 @media only screen and (max-width: 800px) {
   .people-section-1{
@@ -930,6 +1029,32 @@ section {
     width: 18rem;
     height: 32rem;
     padding: 0;
+  }
+
+
+  .more-image-section{
+    background: red;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    height: 75rem;
+  }
+  
+  .more-image-section .more-image{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    position: relative;
+    top: 100px;
+  }
+  
+  .more-image .image-card img{
+    width: 350px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 15px;
   }
 
 }
@@ -1027,3 +1152,4 @@ section {
   }
 
 }
+
