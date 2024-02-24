@@ -22,6 +22,43 @@ h6 {
   font-family: "Dosis", sans-serif;
 }
 
+
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(73, 30, 30, 0.454);
+  z-index: 1;
+}
+h
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media (max-width: 768px) {
+  #header-carousel .carousel-item {
+      position: relative;
+      min-height: 450px;
+  }
+  
+  #header-carousel .carousel-item img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -308,7 +345,6 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/new_intro1.jpeg") center center;
   background-size: cover;
   position: relative;
   margin-top: 70px;
