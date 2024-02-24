@@ -845,6 +845,17 @@ section {
   top: 100px;
 }
 
+
+.more-image .image-card{
+  display: block;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+
+
+
 .more-image .image-card img{
   width: 350px;
   height: 150px;
@@ -1006,9 +1017,19 @@ section {
     position: relative;
     top: 100px;
   }
+  .more-image .image-card{
+    display: block;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  
+ 
   
   .more-image .image-card img{
-    width: 350px;
+    width: 300px;
     height: 150px;
     border: 2px solid white;
     border-radius: 20px;
@@ -1063,7 +1084,7 @@ section {
     gap: 10px;
     margin: 0;
     width: 18rem;
-    height: 32rem;
+    height: 25rem;
     padding: 0;
   }
 
@@ -1084,10 +1105,19 @@ section {
     position: relative;
     top: 100px;
   }
+  .more-image .image-card{
+    display: block;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+  }
   
+  
+
   .more-image .image-card img{
-    width: 350px;
-    height: 150px;
+    width: 300px;
+    height: 100px;
     border: 2px solid white;
     border-radius: 20px;
     margin-bottom: 15px;
@@ -1155,6 +1185,25 @@ section {
     justify-content: center;
     gap: 20px;
   }  
+
+  .more-image .image-card{
+    display: block;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  
+
+  .more-image .image-card img{
+    width: 250px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+
   .people-section-1 .people-card{
     color: white;
     background: red;
