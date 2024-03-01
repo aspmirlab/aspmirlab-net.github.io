@@ -351,9 +351,13 @@ h
   padding: 0;
 }
 
+.text-center h5{
+  font-size: 35px;
+}
+
 #hero:before {
   content: "";
-  background: rgba(73, 30, 30, 0.454);
+  background: rgba(77, 40, 40, 0.053);
   position: absolute;
   bottom: 0;
   top: 0;
