@@ -361,7 +361,7 @@ h
 
 #hero:before {
   content: "";
-  background: rgba(77, 40, 40, 0.053);
+  background: rgba(77, 40, 40, 0.43);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -925,7 +925,7 @@ section {
 
 
 .event-card{
-  border: 3px dashed red;
+  border: 3px solid red;
   width: 350px;
   height: 350px;
   border-radius: 15px;
