@@ -706,6 +706,15 @@ section {
 
 
 /* =========================MY NEW STYLING START ================= */
+.funders{
+  margin-top: 50px;
+  margin-bottom: 110px;
+}
+
+
+.funder-logo{
+  width:100px;
+}
 
 
  .prof-card{
