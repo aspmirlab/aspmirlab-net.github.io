@@ -31,7 +31,6 @@ h6 {
   background: rgba(73, 30, 30, 0.454);
   z-index: 1;
 }
-h
 .carousel-control-prev,
 .carousel-control-next {
   width: 10%;
@@ -381,9 +380,6 @@ h
   color: #fff;
 }
 
-#hero h1 span {
-  border-bottom: 4px solid #3498db;
-}
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
@@ -411,20 +407,20 @@ h
 
 @media (max-width: 992px) {
   #hero {
-    height: calc(100vh - 70px);
+    height: calc(60vh - 60px);
   }
 }
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 36px;
   }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 
@@ -1256,6 +1252,9 @@ section {
   }
 }
 @media only screen and (max-width: 800px) {
+  .hero-txt{
+    font-size: 20px;
+  }
   .people-section-1{
     margin: 10px;
     box-sizing: border-box;
@@ -1381,6 +1380,44 @@ section {
 
 
 @media only screen and (max-width: 700px) {
+  #hero {
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    position: relative;
+    margin-top: 70px;
+    padding: 0;
+  }
+  
+  .text-center h5{
+    font-size: 35px;
+  }
+  
+  #hero-no:before{
+    background: none;
+  }
+  
+  #hero:before {
+    content: "";
+    background: none;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+
+  #header-carousel .carousel-item img {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.text-center h5{
+  font-size: 18px;
+}
   #header .logo img {
     max-height: 150px;
     width: 250px;
@@ -1452,6 +1489,8 @@ section {
 }
 
 @media only screen and (max-width: 600px) {
+
+
   .people-section-1{
     margin: 10px;
     box-sizing: border-box;
