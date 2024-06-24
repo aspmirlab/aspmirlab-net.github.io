@@ -980,7 +980,25 @@ section {
   width: 7.5rem;
 }
 
-.learn-more a{
+.learn-more-b{
+  position: relative;
+  bottom: 5px;
+  margin: auto;
+  background: red;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  margin-top: 15rem;
+  width: 7.5rem;
+}
+
+.learn-more, a{
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+
+.learn-more-b a{
   font-size: 18px;
   font-style: italic;
   color: white;
