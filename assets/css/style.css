@@ -905,7 +905,10 @@ section {
 }
 
 .bg-img{
-  /* background: url("../img/ASPMIRFEDGEN\ Monthly\ ADVANCED\ RESEARCH\ TUTORIAL_page-0001.jpg"); */
+  background: url("../img/Fedgen-21_page-0001.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .event-title{
