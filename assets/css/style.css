@@ -904,6 +904,13 @@ section {
   grid-template-columns: auto auto auto;
 }
 
+.bg-img1{
+  background: url("../img/advanced\ research.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-img{
   background: url("../img/Fedgen-21_page-0001.jpg");
   background-position: center;
