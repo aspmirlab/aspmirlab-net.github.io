@@ -904,6 +904,13 @@ section {
   grid-template-columns: auto auto auto;
 }
 
+.bg-imgNew{
+  background: url("../img/capic-poster.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-img1{
   background: url("../img/advanced\ research.jpg");
   background-position: center;
@@ -1004,7 +1011,7 @@ section {
   font-style: italic;
   color: white;
   text-align: center;
-
+}
 .learn-more-b a{
   font-size: 18px;
   font-style: italic;
@@ -1621,4 +1628,3 @@ section {
 
 
 }
-
